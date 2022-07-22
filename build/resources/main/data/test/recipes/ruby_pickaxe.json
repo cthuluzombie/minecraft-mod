@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " t ",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "test:ruby"
+    }
+  },
+  "result": {
+    "item": "test:ruby_pickaxe"
+  }
+}

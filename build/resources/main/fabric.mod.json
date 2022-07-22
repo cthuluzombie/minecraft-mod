@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "1.0.0",
+
+  "name": "test-mod",
+  "description": "just a test",
+  "authors": [
+    "Cthuluzombie"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/test/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cthuluzombie.test.Test"
+    ]
+  },
+  "mixins":[
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
